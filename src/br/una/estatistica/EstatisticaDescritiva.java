@@ -3,7 +3,9 @@ package br.una.estatistica;
 import java.util.Arrays;
 
 /**
- * Estatistica metodos basicos. 
+ * Centro Universitário Una Sistemas de Infornação
+ * Instituto Polilitecnico - Campi Barreiro 
+ * Estatistica descritiva. 
  *
  * @author douglas.silva
  *
@@ -101,7 +103,10 @@ public class EstatisticaDescritiva {
             return (amostra[meio -1 ] + amostra[meio]) / 2;
         }       
     }
-    
+     /**
+     * Calculo da amplitude amostral
+     * @return double 
+     */
     public double amplitude(){
        Arrays.sort(amostra);
        return amostra[0] - amostra[amostra.length - 1];
