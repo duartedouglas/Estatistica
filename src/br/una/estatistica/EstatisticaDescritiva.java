@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * Centro Universitário Una Sistemas de Infornação
- * Instituto Polilitecnico - Campi Barreiro 
+ * Instituto Politecnico - Campi Barreiro 
  * Estatistica descritiva. 
  *
  * @author douglas.silva
